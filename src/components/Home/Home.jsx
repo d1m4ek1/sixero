@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import "./Home.css";
 import bigLogo from "./images/logo.jpg";
 import Information from "./Information/Information";

@@ -1,5 +1,7 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+
+import { BrowserRouter, Route, Router, Switch } from "react-router-dom";
+
 import "./App.css";
 import Covers from "./components/Covers/Covers";
 import Header from "./components/Header/Header";
@@ -13,9 +15,10 @@ function App() {
       <div className="app-wrapper">
         <Header />
         <div className="app-wrapper-content">
-          <Route path="/Home" component={Home} />
-          <Route path="/Covers" component={Covers} />
-          <Route path="/Music" component={Music} />
+            <Route exact path="/" component={Home} />
+            <Route path="/Home" component={Home} />
+            <Route path="/Covers" component={Covers} />
+            <Route path="/Music" component={Music} />
         </div>
       </div>
     </BrowserRouter>
