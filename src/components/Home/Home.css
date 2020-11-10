@@ -1,0 +1,53 @@
+.content_home {
+    width: 100%;
+    height: auto;
+}
+
+.content_home__block {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content_home__bigLogo {
+    margin-bottom: 20px;
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    animation-name: AnimateBigLogo;
+    animation-duration: 1s;
+}
+
+@keyframes AnimateBigLogo {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.content__forms {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.modal_message {
+    border: none;
+    background-color: rgb(255, 153, 0);
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}

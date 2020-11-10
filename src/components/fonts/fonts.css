@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'MainFont'; 
+	src: url(./main-font.otf);
+}
+
+@font-face {
+    font-family: 'TitleFont';
+    src: url(./nav-name.otf);
+}
+
+@font-face {
+	font-family: 'NavFont'; 
+	src: url(./title-name.otf); 
+}

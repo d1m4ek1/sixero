@@ -1,0 +1,86 @@
+.content_home__main {
+    width: auto;
+    height: auto;
+}
+
+.content_home__title {
+    width: 100%;
+    height: auto;
+}
+
+.price_title {
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-family: TitleFont, sans-serif;
+}
+
+.price_text {
+    font-size: 15px;
+    font-family: MainFont, sans-serif;
+}
+
+.title_item {
+    margin: 0;
+    width: 220px;
+    height: auto;
+    font-family: NavFont, sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(255, 136, 0);
+    animation-name: AnimatePrice;
+    animation-duration: 1s;
+}
+
+.price {
+    line-height: 0.5;
+    animation-name: AnimatePrice;
+    animation-duration: 2s;
+}
+
+@keyframes AnimatePrice {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.money {
+    letter-spacing: 2px;
+    color: rgb(0, 255, 13);
+}
+
+.yahoo_l {
+    padding: 1px 2px 1px 2px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(140, 0, 255);
+}
+
+.sc_l {
+    padding: 1px 2px 1px 2px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(255, 115, 0);
+}
+
+.ds_l {
+    padding: 1px 2px 1px 2px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(76, 58, 128);
+}
+
+.inst_l {
+    padding: 1px 2px 1px 2px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(38, 0, 255), rgb(255, 0, 0));
+}
