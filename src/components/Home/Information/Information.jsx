@@ -7,6 +7,7 @@ const Information = () => {
       <div className="content_home__title">
         <p className="title_item">INFORMATION</p>
       </div>
+      <div className="block_info">
       <div className="price">
         <p className="price_title">PRICES:</p>
         <p className="price_text">
@@ -32,10 +33,11 @@ const Information = () => {
         </p>
         <br />
         <p className="price_title">MESSAGE ME:</p>
-        <p className="price_text"><span className="yahoo_l">YahooMail</span> sixeromusic@yahoo.com</p>
-        <p className="price_text"><span className="sc_l">SoundCloud</span> <a href="https://soundcloud.com/sixerox">https://soundcloud.com/sixerox</a></p>
+        <p className="price_text"><span className="yahoo_l">YahooMail</span></p><p className="price_text">sixeromusic@yahoo.com</p>
+        <p className="price_text"><a href="https://soundcloud.com/sixerox"><span className="sc_l">SoundCloud</span></a></p>
         <p className="price_text"><span className="ds_l">Discord SIXÉRO#0001</span></p>
-        <p className="price_text"><span className="inst_l">Instagram</span> <a href="https://www.instagram.com/sixeromusic/">https://www.instagram.com/sixeromusic/</a></p>
+        <p className="price_text"><a href="https://www.instagram.com/sixeromusic/"><span className="inst_l">Instagram</span></a></p>
+      </div>
       </div>
     </div>
   );

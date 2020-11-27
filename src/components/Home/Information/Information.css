@@ -19,6 +19,10 @@
     font-family: MainFont, sans-serif;
 }
 
+.price_text a {
+    text-decoration: none;
+}
+
 .title_item {
     margin: 0;
     width: 220px;
@@ -83,4 +87,18 @@
     color: rgb(255, 255, 255);
     border-radius: 5px;
     background: linear-gradient(45deg, rgb(38, 0, 255), rgb(255, 0, 0));
+}
+
+
+@media (max-width: 975px) {
+    .content_home__title {
+        display: flex;
+        justify-content: center;
+    }
+    .block_info {
+        margin-left: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }

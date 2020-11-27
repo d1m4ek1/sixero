@@ -23,8 +23,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(98, 0, 255);
-    padding-bottom: 59px;
+    
 }
 
 .content_music__playlists {
@@ -91,27 +90,12 @@
     text-decoration: none;
 }
 
-@media (max-width: 500px) {
-    .iframe_music {
-        animation: none;
-        width: 400px;
-        height: 400px;
-        transform: none;
-    }
-
-    .iframe_music iframe {
-        width: 100%;
-        height: 100%;
-    }
-}
-
 .MiniLoading {
     width: 100%;
     height: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-color: rgb(98, 0, 255);
 }
 
 .MiniLoading_Line {
@@ -138,5 +122,20 @@
         width: 100%;
         background-color: rgb(0, 110, 255);
         box-shadow: 0px 0px 10px rgb(0, 110, 255);
+    }
+}
+
+
+@media (max-width: 500px) {
+    .iframe_music {
+        animation: none;
+        width: 400px;
+        height: 400px;
+        transform: none;
+    }
+
+    .iframe_music iframe {
+        width: 100%;
+        height: 100%;
     }
 }

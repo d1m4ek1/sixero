@@ -2,6 +2,7 @@ import logo from "./images/logo.jpg";
 import React from "react";
 import "./Header.css";
 import Nav from "./Navlink/Nav";
+import NavMobile from "./MobileNavlink/Nav";
 
 const Header = () => {
   return (
@@ -15,6 +16,7 @@ const Header = () => {
             </a>
           </div>
           <Nav />
+          <NavMobile />
         </div>
       </div>
     </header>

@@ -8,6 +8,7 @@ import CoverFive from "./CoversComp/CoverFive/CoverFive.jsx";
 import CoverSix from "./CoversComp/CoverSix/CoverSix.jsx";
 import CoverSeven from "./CoversComp/CoverSeven/CoverSeven";
 import CoverEight from "./CoversComp/CoverEight/CoverEight";
+import CoverNine from "./CoversComp/CoverNine/CoverNine.jsx";
 
 const CoversIMG = (props) => {
   return (
@@ -20,6 +21,7 @@ const CoversIMG = (props) => {
         <CoverSix />
         <CoverSeven />
         <CoverEight />
+        <CoverNine />
     </div>
   );
 };
